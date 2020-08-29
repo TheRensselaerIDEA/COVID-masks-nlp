@@ -144,7 +144,7 @@ To experiment with other BART summarization model instances from HuggingFace, yo
 ```
 
 ## 3. Using the R analysis pipeline notebook
-Open [analysis/twitter.Rmd] in a [knitr](https://yihui.org/knitr/) enabled R environment. We recommend using [RStudio](https://rstudio.com/).
+Open [analysis/twitter.Rmd](analysis/twitter.Rmd) in a [knitr](https://yihui.org/knitr/) enabled R environment. We recommend using [RStudio](https://rstudio.com/).
 
 ### 3.1 Set the notebook snapshot mode (optional)
 The analysis pipeline can take several hours to run on larger sample sizes of tweets. For this reason we have implemented a snapshot
