@@ -148,7 +148,7 @@ Open [analysis/twitter.Rmd](analysis/twitter.Rmd) in a [knitr](https://yihui.org
 
 ### 3.1 Set the notebook snapshot mode (optional)
 The analysis pipeline can take several hours to run on larger sample sizes of tweets. For this reason we have implemented a snapshot
-system that allows the environment state from previous runs to be pre-loaded and only the visualization code executed. Usage of the snapshot system is explained int he header comments of the notebook. Snapshots should be saved to and loaded from the [snapshots](snapshots) directory.
+system that allows the environment state from previous runs to be pre-loaded and only the visualization code executed. Usage of the snapshot system is explained int he header comments of the notebook. Snapshots should be saved to and loaded from the [analysis/snapshots](analysis/snapshots) directory.
 
 By default, no snapshot is saved or loaded.
 
