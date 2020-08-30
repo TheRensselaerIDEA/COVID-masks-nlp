@@ -51,13 +51,13 @@ tweets from a collection of flat files, where each line is either a tweet ID or 
 
 To import the mask-wearing dataset included in this repository:
 ```shell
-python jsonl_dataset_loader.py --datasetglob=./../tweet_ids/**/*.txt
+python jsonl_dataset_loader.py --datasetglob=./../tweet_ids/*/*.txt
 ```
 
 To import from a directory `data` of JSON Lines files where the tweet ID is located in the `tweet_id` field of each json object:
 ```shell
 python jsonl_dataset_loader.py \
-  --datasetglob=./data/*.jsonl \
+  --datasetglob=./../data/*.jsonl \
   --tweetidfieldname=tweet_id
 ```
 When importing from a JSON Lines format, any additional fields present in each json object will be imported into Elasticsearch alongside
