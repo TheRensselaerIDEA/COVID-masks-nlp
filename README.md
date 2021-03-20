@@ -1,5 +1,5 @@
 # COVID-masks-nlp
-Dataset and code for [our paper](https://www.medrxiv.org/content/10.1101/2020.08.28.20183863v1): Unmasking the conversation on masks: Natural language processing for topical sentiment analysis of COVID-19 Twitter discourse
+Dataset and code for [our paper](https://www.medrxiv.org/content/10.1101/2020.08.28.20183863v3): Unmasking the conversation on masks: Natural language processing for topical sentiment analysis of COVID-19 Twitter discourse
 
 The clusters from the paper can be explored in our pre-rendered [interactive notebook](https://therensselaeridea.github.io/COVID-masks-nlp/analysis/twitter.html):
 
